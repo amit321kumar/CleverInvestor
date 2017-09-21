@@ -11,6 +11,10 @@ $con=new MongoDB\Client("mongodb://127.0.0.1:27017");
 
 //echo "you are inside the /var/www/PhpstormProjects/</br>";
 
+//print_r($_SERVER);
+//print_r($GLOBALS);
+//print_r($_GET);
+print_r($php_errormsg);
 
 
 ?>
@@ -21,6 +25,9 @@ $con=new MongoDB\Client("mongodb://127.0.0.1:27017");
     </title>
 </head>
 <body>
+<h3>
+    CleverINvestor
+</h3>
 <form method="post" action="success.php">
     <div align="center" id="1" style="border-width: 2px;border-color: #ff1212">
 
